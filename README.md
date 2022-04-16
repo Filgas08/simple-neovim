@@ -5,13 +5,26 @@
 a simple neovim config.
 Remember to install Fira code nerd font, else it will not work.
 
-### *_dependencies_: *
+### *_dependencies:_*
 
-vim-Plug
-Lua
-and others, I have to check
+1. vim-Plug.
+2. Lua.
+3. coc-explorer.
+4. coc-clangd.
+5. clang
 
-### *_install instructions: _*
+This should be it.
+To install packages like coc-explorer go in neovim and type:
+```
+:CocInstall <package name>
+```
+### IMPORTANT:
+In the case of coc-clangd, you may need to run this command (in neovim):
+```
+:CocCommand clangs.install
+```
+
+### *_install instructions:_*
 
 ```
 # go where config files are stored
