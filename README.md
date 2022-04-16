@@ -8,7 +8,8 @@ Remember to install Fira code nerd font, else it will not work.
 ### *_dependencies_: *
 
 vim-Plug
-others, I have to check.
+Lua
+and others, I have to check
 
 ### *_install instructions: _*
 
